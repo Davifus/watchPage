@@ -1,5 +1,12 @@
 .hp{
-    height: 55vh;
+    height: 60vh;
     width: 100vh;
-    
+}
+
+.watchcon{
+    font-size: 4vh;
+}
+
+.cartcon{
+    font-size: 3vh;
 }
