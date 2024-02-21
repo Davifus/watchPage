@@ -10,3 +10,14 @@
 .cartcon{
     font-size: 3vh;
 }
+
+.navlogo{
+    width: 150px
+}
+
+.cardVert{
+    
+    max-width: 60vh;
+    overflow-x: auto;
+}
+
