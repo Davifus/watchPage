@@ -7,17 +7,39 @@
     font-size: 4vh;
 }
 
+.fontcon{
+    font-size: 4vh;
+}
+
 .cartcon{
     font-size: 3vh;
 }
 
 .navlogo{
-    width: 150px
+    width: 150px; 
+    height: auto;
+    position: absolute;
+    left: 0;
+    margin-top: -55px;
 }
 
 .cardVert{
-    
     max-width: 60vh;
     overflow-x: auto;
 }
 
+.watches{
+    margin-left: -25px;
+    margin-top: 6px;
+}
+
+.big-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35em; 
+    color: white; 
+    white-space: nowrap; 
+    z-index: 0;
+}

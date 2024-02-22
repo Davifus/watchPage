@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/d2f631b6d7.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </head>
 
@@ -15,7 +16,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img class="navlogo" src="/asset/digiwrist-high-resolution-logo.png" alt="">
+                <img class="navlogo z-3" src="/asset/digiwrist-high-resolution-logo-removebg-preview.png" alt="">
             </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,50 +47,121 @@
         </div>
     </nav>
 
-    <div class="hp container-fluid col bg-body-secondary">
+    <div class="hp container-fluid col bg-body-secondary position-relative">
         <!-- top portion -->
         <div class="row justify-content-center align-items-center">
-            <div class="col-auto mb-5">
-                <img src="asset/hp_watch.png" alt="">
+            <div class="col-auto mt-3 mb-4 position-relative">
+                <img style="z-index: 2; position: relative;" src="asset/hp_watch.png" alt="">
+                <div class="big-text text-center" style="z-index: 1;">
+                    AE1200
+                </div>
             </div>
         </div>
+        
+        
 
         <div class="container-fluid text-center mt-5">
-            <div class="row justify-content-center align-items-center">
+            <div class="row align-items-center">
                 <div class="col-lg-2">
-                    <i class="bi bi-1-circle watchcon"></i>
-                    <br>
-                    10 year battery life
+                    <h1>
+                        FEATURES
+                    </h1>
                 </div>
-                <div class="col-lg-2">
-                    <i class="bi bi-2-circle watchcon"></i>
+                <div class="col-1">
+                    <i class="bi bi-battery-full watchcon"></i>
                     <br>
-                    5 alarm slots
+                    <div class="fw-bold">
+                        10 Years
+                    </div>
+                    
                 </div>
-                <div class="col-lg-2">
-                    <i class="bi bi-3-circle watchcon"></i>
+                <div class="col-1">
+                    <i class="bi bi-alarm watchcon"></i>
                     <br>
-                    LED button for light up
+                    <div class="fw-bold">
+                        5 alarms
+                    </div>
+                    
+                </div>
+                <div class="col-1">
+                    <i class="bi bi-lightbulb watchcon"></i>                    
+                    <br>
+                    <div class="fw-bold">
+                        LED light
+                    </div>
+                    
+                </div>
+                <div class="col-1">
+                    <i class="bi bi-stopwatch watchcon"></i>
+                    <br>
+                    <div class="fw-bold">
+                        Stopwatch
+                    </div>
+                    
+                </div>
+                <div class="col-1">
+                    <i class="bi bi-globe-americas watchcon"></i>
+                    <br>
+                    <div class="fw-bold">
+                        World Time
+                    </div>
+                    
+                </div>
+                <div class="col-1">
+                    <i class="bi bi-moisture watchcon"></i>
+                    <br>
+                    <div class="fw-bold">
+                        100 Meter
+                    </div>
+                    
                 </div>
             </div>
             
-            <div class="row justify-content-center align-items-center mt-5">
-                <div class="col-lg-2">
-                    <i class="bi bi-4-circle watchcon"></i>
+        </div>
+
+
+        <div class="container-fluid text-end mt-5">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-1 text-center mb-2">
+                    <i class="bi bi-watch watchcon"></i>                 
                     <br>
-                    1/100-second stopwatch
+                    <div class="fw-bold">
+                        WH-1A
+                    </div>
+                    
                 </div>
-                <div class="col-lg-2">
-                    <i class="bi bi-5-circle watchcon"></i>
+                <div class="col-1 text-center">
+                    <i class="fa-solid fa-ruler fontcon"></i>                  
                     <br>
-                    World map with World Time
+                    <div class="fw-bold mt-3">
+                        45×42.1×12.5mm
+                    </div>
+                    
                 </div>
-                <div class="col-lg-2">
-                    <i class="bi bi-6-circle watchcon"></i>
+                <div class="col-1 text-center">
+                    <i class="fa-solid fa-dumbbell fontcon"></i>
                     <br>
-                    100-meter water resistance
+                    <div class="fw-bold mt-3">
+                        39g
+                    </div>
+                    
+                </div>
+                <div class="col-1 text-center">
+                    <i class="fa-solid fa-flask fontcon"></i>                 
+                    <br>
+                    <div class="fw-bold mt-3">
+                        Resin
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-2 text-center">
+                    <h1>
+                        OTHER
+                    </h1>
                 </div>
             </div>
+            
         </div>
 
         <hr class="mt-5">
@@ -183,20 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card bg-body-secondary" style="width: 15rem;">
-                        <img src="asset/MQ-24-9BLL_1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MQ24-9B</h5>
-                            
-                            <a href="#" class="btn btn-primary">
-                                Buy Now
-                                <i class="bi bi-cart ms-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+                
                 <div class="col-lg-3">
                     <div class="card bg-body-secondary" style="width: 15rem;">
                         <img src="asset/TW2R79400.webp" class="card-img-top" alt="...">
@@ -211,8 +270,8 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card bg-body-secondary" style="width: 15rem;">
-                        <img src="asset/WS-1600H-1AV.png" class="card-img-top" alt="...">
+                    <div class="card bg-body-secondary" style="height:24.5rem; width: 15rem;">
+                        <img src="asset/WS-1600H-1AV.png" class="card-img-top watches" alt="..." style="width: 280px; height: auto;">
                         <div class="card-body">
                             <h5 class="card-title">WS1600H-1AV</h5>
                             
@@ -224,10 +283,10 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card bg-body-secondary" style="width: 15rem;">
-                        <img src="asset/71U60K-9oVS._AC_SL1500_-removebg-preview.png" class="card-img-top" alt="...">
+                    <div class="card bg-body-secondary" style="height:24.5rem; width: 15rem;">
+                        <img src="asset/71U60K-9oVS._AC_SL1500_-removebg-preview.png" class="card-img-top ms-4 mt-4" alt="" style="width: 170px; height: auto;">
                         <div class="card-body">
-                            <h5 class="card-title">AE-1300WH-8A</h5>
+                            <h5 class="card-title mt-1">AE-1300WH-8A</h5>
                             
                             <a href="#" class="btn btn-primary">
                                 Buy Now
@@ -236,27 +295,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card bg-body-secondary" style="width: 15rem;">
-                        <img src="asset/LF-20W-1A.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">LF20W-1A</h5>
-                            
-                            <a href="#" class="btn btn-primary">
-                                Buy Now
-                                <i class="bi bi-cart ms-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
 
             </div>
         </div>
-
-                
-                
-                
                     
             </div>
         </div>
@@ -279,12 +320,15 @@ AE1200WH-1A
 
 feature 
 - i want to add is a hover image change for the main watch
+- add breadcrumb on the card for their brand: casio, timex, etc
+- add abiraty prices and icon for the buy now button
+- feature text above the 1-6 & maybe beside it put basic info like weight material stuff
 
 fixes
 - make the accordian and cart image stick together when window gets smaller
 - fix the card size for the different watches
 - swap 1-6 icon to something else? like things about store like free shipping, durable, waterproof
 , refurbished,  rubber wrist wrap, metal casing etc
--
+- 
 
 -->
