@@ -40,7 +40,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35em; 
     color: white; 
     white-space: nowrap; 
     z-index: 0;
@@ -56,5 +55,20 @@
     line-height: 60px; 
 }
 
+/* default text size */
+.rt{ 
+    font-size: 35em; 
+}
+
+@media (max-width: 932px){
+    .rt{
+        
+        font-size: 0em; 
+    }
+    .hp{
+        height: 55vh;
+        width: 100vh;
+    }
+}
 
 
